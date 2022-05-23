@@ -1,0 +1,37 @@
+%--------- Formatos ---------------
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[spanish]{babel}
+
+%--------- Estilos -----------------------
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[LE,RO]{\nouppercase{\leftmark}} 
+%\fancyhead[LO,RE]{\thechapter}
+%\fancyfoot[C]{\thepage}
+
+%---------Dimensiones y margenes---------------
+\usepackage[total={18cm,23cm, letterpaper},top=2.5cm, left=2cm]{geometry}
+\parindent=0mm %tamaño de la identación
+\parskip=5pt
+
+
+%-------------------- Otros paquetes ------------------------------
+\usepackage{enumerate}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{natbib} %Otorga formato a las citas
+\usepackage{longtable}
+
+%-------------------- Renombre de comandos ------------------------------
+\renewcommand{\contentsname}{Contenido}
+\renewcommand{\partname}{Parte}
+\renewcommand{\appendixname}{Apéndice}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabla}
+\AtBeginDocument{\renewcommand\tablename{Tabla}}
+%\renewcommand{\chaptername}{Capítulo} % para ’book’
+%\renewcommand{\bibname}{Bibliografía} % para ’book’

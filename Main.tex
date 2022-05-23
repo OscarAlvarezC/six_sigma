@@ -1,0 +1,27 @@
+\documentclass[12pt,letter]{report}
+\input{Formato.tex}
+
+\begin{document}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Marco Teórico}
+\input{sections/planeacion_estrategica.tex}
+\input{sections/eval_factores_externos.tex}
+
+\chapter{Caso de estudio}
+Top Doctors es la primera y única empresa mexicana dedicada a ayudar a los pacientes a identificar los mejores médicos, centros y clínicas de cada especialidad. Un riguroso proceso de selección auditado por una consultora multinacional independiente, lo garantiza.
+
+Trabaja para y por el paciente, para garantizar que los mejores médicos estén al alcance de todos y para que la información médica sea rigurosa y fiable. 
+
+\input{sections/caso_estudio.tex}
+
+
+\nocite{*} %Muestra las citas que no fueron citadas
+\bibliography{bibliografia}
+\bibliographystyle{apalike}
+
+\end{document}
+
+
