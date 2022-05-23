@@ -4,4 +4,6 @@
 *.log
 *.png
 *.pdf
-images/
+*.lof
+*.lot
+*.toc
